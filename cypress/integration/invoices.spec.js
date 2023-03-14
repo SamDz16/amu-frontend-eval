@@ -1,4 +1,4 @@
-/// <reference types="Cypress" />
+// <reference types="Cypress" />
 
 import { API_URL, API_KEY, BASE_URL, resetDatabase } from "../utils";
 
