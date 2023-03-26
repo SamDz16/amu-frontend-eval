@@ -38,18 +38,19 @@ En tant que correcteur, je dois pouvoir corriger de cette façon :
 
 ```bash
 # télécharger votre projet :
-git clone url_de_votre_projet
+git clone https://github.com/SamDz16/amu-frontend-eval
 
 # entrer dans le dossier
-cd votre_application
+cd amu-frontend-eval
 
-# lancer l'application :
+# installer les dépendances de l'application clients_bells créee par le module create-react-app
+cd clients_bells
+
+# lancer l'application clients_bells
 npm run serve
 
 # lancer les tests :
-npm run cy:run
-# ou
 npm run cy:open
 ```
 
-## Courage !
+## Amusez-vous!

@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import ClientController from "./components/ClientController";
-import ClientCreate from "./components/ClientCreate";
-import ClientListItemDetails from "./components/ClientListItemDetails";
-import InvoicCreate from "./components/InvoicCreate";
+import ClientController from "./components/clientPage/ClientController";
+import ClientCreate from "./components/clientPage/ClientCreate";
+import ClientListItemDetails from "./components/clientPage/ClientListItemDetails";
+import InvoicCreate from "./components/invoicePage/InvoicCreate";
 
 const App = () => {
   return <BrowserRouter>
