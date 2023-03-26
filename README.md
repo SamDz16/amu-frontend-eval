@@ -44,7 +44,7 @@ git clone https://github.com/SamDz16/amu-frontend-eval
 cd amu-frontend-eval
 
 # installer les dépendances de l'application clients_bells créee par le module create-react-app
-cd clients_bells
+cd clients_bells && npm install
 
 # lancer l'application clients_bells
 npm run serve
